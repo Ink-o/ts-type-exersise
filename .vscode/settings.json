@@ -1,0 +1,11 @@
+{
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    },
+    "editor.formatOnSave": false, // 老配置直接改成 false，防止重复格式化
+    "eslint.validate": [
+      "typescript",
+    ],
+    "eslint.enable": true, // 开启 eslint
+    "eslint.codeActionsOnSave.mode": "problems",
+  }
